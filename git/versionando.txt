@@ -1,0 +1,20 @@
+#Comandos Git
+
+- Iniciar um repositório (criando local -> remoto)
+git init
+git add .
+git config --global user.email "bezerra909@gmail.com"
+git config --global user.name "jojoseb"
+git commit -m "first commit"
+git remote add origin [url do repositório]
+git branch -M main
+git push -u origin main (é necessário criar um token para permitir o push)
+
+- Utilitários
+git status
+git pull
+git log (--oneline) (exibe commits realizados)
+git show [hash do commit] (exibe as alterações git do commit)
+git push origin (branch)
+
+- Branch
