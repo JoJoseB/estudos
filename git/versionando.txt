@@ -22,3 +22,13 @@ git branch -c [branch] (criar uma nova branch)
 git branch -a (listar branchs)
 git switch [nome] (mudar para uma branch)
 git merge [branch] (mesclar branchs)
+
+- Rollback
+git checkout (rollback antes do staging)
+git diff (comparar antes e depois do arquivo)
+git revert HEAD (volta para o commit imediatamente anterior ao atual)
+git reset --hard [CommitID]
+
+- GIT/SSH
+
+ssh-keygen (copie o arquivo .pub)
