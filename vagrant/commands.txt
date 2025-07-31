@@ -1,0 +1,10 @@
+#Comandos Vagrant
+
+- Geral
+vagrant up
+vagrant ssh
+vagrant reload (aplicar novas configurações do vagrantfile)
+vagrant provision (aplicar script sem destruir a VM)
+vagrant global-status [--prune]
+vagrant status
+vagrant destroy [ID] (acessando de outro diretório é necessário o ID da VM)

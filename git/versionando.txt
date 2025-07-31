@@ -30,5 +30,4 @@ git revert HEAD (volta para o commit imediatamente anterior ao atual)
 git reset --hard [CommitID]
 
 - GIT/SSH
-
 ssh-keygen (copie o arquivo .pub)
